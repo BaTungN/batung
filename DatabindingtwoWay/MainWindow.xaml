@@ -1,0 +1,25 @@
+﻿<Window x:Class="DatabindingtwoWay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabindingtwoWay"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Margin="10">
+
+        <!-- DataGrid hiển thị danh sách -->
+        <DataGrid ItemsSource="{Binding People}" 
+              SelectedItem="{Binding SelectedPerson, Mode=TwoWay}"
+              AutoGenerateColumns="False" Height="200" Margin="0,0,0,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=TwoWay}" />
+                <DataGridTextColumn Header="Age" Binding="{Binding Age, Mode=TwoWay}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- TextBox hiển thị Name của dòng được chọn -->
+        <TextBox Text="{Binding SelectedPerson.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+             Width="200" Height="30"/>
+    </StackPanel>
+</Window>

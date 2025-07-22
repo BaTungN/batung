@@ -1,0 +1,47 @@
+﻿<Window x:Class="CarParkingSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="clr-namespace:FontAwesome.WPF;assembly=FontAwesome.WPF"
+        xmlns:local="clr-namespace:CarParkingSystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10" Grid.Row="0">
+            <Button Content="📥 Import Excel" Click="ImportExcel_Click" Width="120" Margin="0,0,10,0"/>
+            <Button Content="📤 Export Excel" Click="ExportExcel_Click" Width="120"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Horizontal" Margin="0 50 0 0">
+            <fa:ImageAwesome Icon="Github" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                        Width="80" Height="80" Name="Github"></fa:ImageAwesome>
+
+            <fa:ImageAwesome Icon="PieChart" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                        Width="80" Height="80"></fa:ImageAwesome>
+            <fa:ImageAwesome Icon="Car" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                        Width="80" Height="80"></fa:ImageAwesome>
+            <fa:ImageAwesome Icon="Code" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                        Width="80" Height="80"></fa:ImageAwesome>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+
+            <fa:ImageAwesome Icon="Spinner" Spin="True" SpinDuration="10" Rotation="40" Width="50" Height="50"  />
+            <fa:ImageAwesome Icon="Instagram" Spin="True" SpinDuration="10" Rotation="40" Width="50" Height="50" Foreground="Violet"  />
+            <fa:ImageAwesome Icon="Twitter" Spin="True" SpinDuration="50" Rotation="10" Width="50" Height="50" Foreground="DeepSkyBlue"  />
+        </StackPanel>
+        <DataGrid x:Name="dataGrid" Grid.Row="2" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Age" Binding="{Binding Age}" />
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</Window>

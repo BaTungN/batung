@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay_MarkupCompile.cache
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay_MarkupCompile.lref
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\bin\Debug\DatabindingtwoWay.exe.config
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\bin\Debug\DatabindingtwoWay.exe
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\bin\Debug\DatabindingtwoWay.pdb
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\MainWindow.baml
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay.g.resources
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay.Properties.Resources.resources
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay.exe
+C:\Users\admin\Desktop\CarParkingSystem\DatabindingtwoWay\obj\Debug\DatabindingtwoWay.pdb

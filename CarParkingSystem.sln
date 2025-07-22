@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarParkingSystem", "CarParkingSystem\CarParkingSystem.csproj", "{61BD2839-CF35-404A-AE69-1BB9DD2EA1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabindingtwoWay", "DatabindingtwoWay\DatabindingtwoWay.csproj", "{11E0C53D-7E11-4EDE-A6F4-CE9EFDE9532E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61BD2839-CF35-404A-AE69-1BB9DD2EA1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BD2839-CF35-404A-AE69-1BB9DD2EA1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BD2839-CF35-404A-AE69-1BB9DD2EA1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BD2839-CF35-404A-AE69-1BB9DD2EA1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E0C53D-7E11-4EDE-A6F4-CE9EFDE9532E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E0C53D-7E11-4EDE-A6F4-CE9EFDE9532E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E0C53D-7E11-4EDE-A6F4-CE9EFDE9532E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E0C53D-7E11-4EDE-A6F4-CE9EFDE9532E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B84FFCB-0F47-411D-98EC-0CD850A5A961}
+	EndGlobalSection
+EndGlobal
